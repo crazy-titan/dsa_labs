@@ -106,6 +106,11 @@ int main(){
         choiceFunction();
         cin >> choice;
 
+        if (choice == 5){
+        cout << "Program Ended"<< endl;
+        break;
+        }
+
         switch (choice)
         {
         case 1:
@@ -148,10 +153,7 @@ int main(){
             
             break;
         }
-    if (choice == 5){
-        cout << "Program Ended"<< endl;
-        break;
-        }
+   
     }
     return 0;
 }
