@@ -16,7 +16,7 @@ class circularQueue{
         }
 
         bool isFull(){
-            if((front == -1 && rear == size -1)||((rear+1)%size)== front){
+            if(((rear+1)%size)== front){
                 return true;
             }else return false;
         }
